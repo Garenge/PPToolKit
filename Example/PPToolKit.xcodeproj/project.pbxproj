@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55D1CD609263CEE62048CFD2 /* PPToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PPToolKit.podspec; path = ../PPToolKit.podspec; sourceTree = "<group>"; };
-		5865022A672686339E164EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55D1CD609263CEE62048CFD2 /* PPToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PPToolKit.podspec; path = ../PPToolKit.podspec; sourceTree = "<group>"; };
+		5865022A672686339E164EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PPToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		DACB84D3C773D86A8A8F0046 /* Pods-PPToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPToolKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-PPToolKit_Example/Pods-PPToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB184DE221017869ED5E9892 /* Pods-PPToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-PPToolKit_Example/Pods-PPToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E17F66F485DBBA44DA4E23A3 /* Pods_PPToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6E209E22953B3F89FD229CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6E209E22953B3F89FD229CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				8FB0681A6717CD82BD7D4A63 /* Pods-PPToolKit_Tests.debug.xcconfig */,
 				6B24BD931D7D9831EB741022 /* Pods-PPToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,9 +513,11 @@
 			baseConfigurationReference = DACB84D3C773D86A8A8F0046 /* Pods-PPToolKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPToolKit/PPToolKit-Prefix.pch";
 				INFOPLIST_FILE = "PPToolKit/PPToolKit-Info.plist";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +531,11 @@
 			baseConfigurationReference = DB184DE221017869ED5E9892 /* Pods-PPToolKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PPToolKit/PPToolKit-Prefix.pch";
 				INFOPLIST_FILE = "PPToolKit/PPToolKit-Info.plist";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
