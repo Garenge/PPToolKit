@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PPToolKit_Example' do
+  pod 'PPToolKit', :path => '../'
+
+  target 'PPToolKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
