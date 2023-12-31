@@ -1,0 +1,22 @@
+{
+  "name": "PPToolKit",
+  "version": "0.1.0",
+  "summary": "A short description of PPToolKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pengpeng/PPToolKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pengpeng": "garenge@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/pengpeng/PPToolKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PPToolKit/Classes/**/*"
+}
