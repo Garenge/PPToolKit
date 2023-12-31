@@ -17,7 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSArray <NSString *>*values = @[@"1", @"2", @"3", @"4"];
+    NSArray *greaterThan2 = [values pp_filter:^BOOL(NSString * _Nonnull element) {
+        return element.intValue > 2;
+    }];
+    
+    for (NSString *string in greaterThan2) {
+        NSLog(@"==== %@", string);
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning

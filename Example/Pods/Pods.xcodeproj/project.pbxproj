@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028457A9E97F697081AF39B093F0F209 /* NSArray+ppEx.h in Headers */ = {isa = PBXBuildFile; fileRef = D31CB1D7428B44B1B03A00C98D1CF5E9 /* NSArray+ppEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2BCC6877A28E23959407796F4FA98E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DBB33AFDB6A006A9EA3A115830C6F /* ReplaceMe.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2FF1AC47ACE49C68F3F2638F5D5E2EF2 /* PPToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FCA8CBCE473788E9E60A60B281CFD8 /* PPToolKit.m */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -21,41 +24,42 @@
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6D84E79807AF48745B65D934BD1783E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		6F2D1DA6F59ED6E5AE942FD01178AEC9 /* PPToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D17E989F6B12BCD1B10C42F45B5EFCEA /* PPToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72C622AD61BBB743FE4E158C238C22EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		7697D1FD6C3C67E5DB2558D33BBAEE89 /* PPToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752EEE2CAF8D0EAF07C23A8BBF07283 /* PPToolKit-dummy.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		7EA0975BD47C72127D28E95BCC270D1E /* Pods-PPToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE247EE26F729A94522274FA4109E83C /* Pods-PPToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF668D79A9DB952B1C1E87942551E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		84FD3A579F06BBA577905940CBB6912A /* PPToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 356B4079F120A70776794759ECE26E2D /* PPToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C8B5CA34B2ECEE33C67F490E93AD09E /* PPToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CD7CDA1B74BFE8B912F9EB990A0BE9 /* PPToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997F692F3A0F8FAEC15E92BB93A3C7F3 /* Pods-PPToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105B03CD21F24E8CEDF13F565393048 /* Pods-PPToolKit_Tests-dummy.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		9F31698026754B416FDBFE88D6B8E8BF /* NSArray+ppEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 935FDD1BE39EAB8FC87F2F8026838D5E /* NSArray+ppEx.m */; };
 		AAF797250FB711439A92D0D338F8A055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		D14807A86B927C83D52C18E0F8E72FFC /* PPToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F843DC517911F41799CB4D206FF0FD8 /* PPToolKit-dummy.m */; };
-		EACB45B78747F6EE9CB259FE65F4C4E4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813BF7C120F00AC112BBA5651ED8387 /* ReplaceMe.m */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10442290E85E9144D07F3661CBE5428B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		11D0EFFF572B227CF46FF117FD2A761A /* PBXContainerItemProxy */ = {
+		3DDF9106CED882C298C82221EFEF009C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A548C3E150FA9B7FA852F7714AC8CBB;
 			remoteInfo = PPToolKit;
 		};
-		84AD3BF2EC53A8F64ED8864E8911672A /* PBXContainerItemProxy */ = {
+		7CFCCA207346E08DFBA3CDFB49BD939E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		DB0367BE859845121581AD98BAD37429 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -67,34 +71,34 @@
 /* Begin PBXFileReference section */
 		0317B616EDA9A3E82F8968C8AB481EF5 /* Pods-PPToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPToolKit_Example.modulemap"; sourceTree = "<group>"; };
 		034A9569A61BAED64ED26BD00B42CB76 /* Pods-PPToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		06F50B47463E516674F1615A3F9726D6 /* PPToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0C43338637D5973F472EDEAAF3F6EA3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		157E04BCFD43E9F8B9936B504698ACE1 /* PPToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPToolKit-prefix.pch"; sourceTree = "<group>"; };
 		18B600004CF59324D4CDBE1F3E5F18FF /* Pods-PPToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		1923E8A4F41E6B725FFFA16E63D83AEF /* PPToolKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPToolKit; path = PPToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1B3B64FE7831D96760C2E93554376821 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		232DE087809C5B0734AB5859EB90D99B /* Pods-PPToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		262CBA83ABB76A89C315EBE54F1D1B5F /* PPToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		2813BF7C120F00AC112BBA5651ED8387 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PPToolKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		3A223A522B8F4C424F6D78FA314CA8E3 /* PPToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPToolKit.release.xcconfig; sourceTree = "<group>"; };
+		356B4079F120A70776794759ECE26E2D /* PPToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPToolKit.h; path = PPToolKit/Classes/PPToolKit.h; sourceTree = "<group>"; };
+		3752EEE2CAF8D0EAF07C23A8BBF07283 /* PPToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPToolKit-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		3F843DC517911F41799CB4D206FF0FD8 /* PPToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPToolKit-dummy.m"; sourceTree = "<group>"; };
+		434FB3201F6B21470B836C73C8F75C91 /* PPToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPToolKit-prefix.pch"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4A2A78C360F3C31A46365FE214D0FC08 /* PPToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPToolKit-Info.plist"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		5105B03CD21F24E8CEDF13F565393048 /* Pods-PPToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		513A1C4DB87D9DD337E68DD4E950CB97 /* Pods-PPToolKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPToolKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		51C21DC91DFCD649FA078B86AAB8F7CE /* Pods-PPToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		580B05CA9BDC317354D54B2DE27D538F /* Pods-PPToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B0EB6EEE3BCCE6309638BB0513CDBE4 /* PPToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPToolKit.modulemap; sourceTree = "<group>"; };
 		5B6E3EEB195E4BE67DA09DB2620BB28B /* Pods-PPToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9D98D043A33F8CBFDCA1A88CC6473C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		61B0647A9C8A0D4036AF6AF91DC49601 /* PPToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPToolKit.release.xcconfig; sourceTree = "<group>"; };
+		61BE2A7F42D13CC152D6AE2CA8399439 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		672501BCD04DB7B81A4E34E6BD142666 /* Pods-PPToolKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PPToolKit_Example"; path = Pods_PPToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -102,27 +106,31 @@
 		7918D6B3079527CF110905C49BC2FEB3 /* Pods-PPToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPToolKit_Example-Info.plist"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7E71E6FF11277FBD77C29D05F65193D5 /* Pods-PPToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85FCA8CBCE473788E9E60A60B281CFD8 /* PPToolKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPToolKit.m; path = PPToolKit/Classes/PPToolKit.m; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8A2DBB33AFDB6A006A9EA3A115830C6F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PPToolKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		8E844720599D8BF7AD7751BF288C2924 /* Pods-PPToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPToolKit_Tests.modulemap"; sourceTree = "<group>"; };
+		92CD7CDA1B74BFE8B912F9EB990A0BE9 /* PPToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPToolKit-umbrella.h"; sourceTree = "<group>"; };
+		935FDD1BE39EAB8FC87F2F8026838D5E /* NSArray+ppEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ppEx.m"; path = "PPToolKit/Classes/NSArray+ppEx.m"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BAC9E826AF70532CD70C98F768976603 /* PPToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPToolKit.modulemap; sourceTree = "<group>"; };
+		BB2BB1AE3D2F8A0C00BA899F6DD6A51C /* PPToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		C3627A3DB8BDC0EAD8A4B0EA0AB1A278 /* Pods-PPToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CABB424AC7A21D3EF230250CF81FC664 /* Pods-PPToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D17E989F6B12BCD1B10C42F45B5EFCEA /* PPToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPToolKit-umbrella.h"; sourceTree = "<group>"; };
+		D31CB1D7428B44B1B03A00C98D1CF5E9 /* NSArray+ppEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ppEx.h"; path = "PPToolKit/Classes/NSArray+ppEx.h"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		D89A90CC546B49DD14940274ACEF523B /* Pods-PPToolKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PPToolKit_Tests"; path = Pods_PPToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC7904D0148E22794F79B2B99590501 /* PPToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E8C118031C6088D238481BE58F2454E7 /* Pods-PPToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F156A8105B0C762605941B0BA35923AD /* Pods-PPToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC7E91A5185AAEDEFAE665B9CC2CA52 /* PPToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPToolKit-Info.plist"; sourceTree = "<group>"; };
 		FE247EE26F729A94522274FA4109E83C /* Pods-PPToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,11 +144,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5DFFF9B37D4AAE4C34EC840E450D496 /* Frameworks */ = {
+		A99DCAF5125A5FCEA599ECC72E6B3BE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C622AD61BBB743FE4E158C238C22EA /* Foundation.framework in Frameworks */,
+				7FF668D79A9DB952B1C1E87942551E94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +191,16 @@
 			path = "Target Support Files/Pods-PPToolKit_Example";
 			sourceTree = "<group>";
 		};
+		313F0B118D2156E8B153B65984EAC206 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				61BE2A7F42D13CC152D6AE2CA8399439 /* LICENSE */,
+				262CBA83ABB76A89C315EBE54F1D1B5F /* PPToolKit.podspec */,
+				5E9D98D043A33F8CBFDCA1A88CC6473C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,32 +222,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		76ABDDD9A39DEFF105AC487EB62A8112 /* PPToolKit */ = {
-			isa = PBXGroup;
-			children = (
-				2813BF7C120F00AC112BBA5651ED8387 /* ReplaceMe.m */,
-				A4F6E08129D2BD7F280A193BCF31C00C /* Pod */,
-				77407A75884EB81905905F1E69E10520 /* Support Files */,
-			);
-			name = PPToolKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		77407A75884EB81905905F1E69E10520 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAC9E826AF70532CD70C98F768976603 /* PPToolKit.modulemap */,
-				3F843DC517911F41799CB4D206FF0FD8 /* PPToolKit-dummy.m */,
-				4A2A78C360F3C31A46365FE214D0FC08 /* PPToolKit-Info.plist */,
-				157E04BCFD43E9F8B9936B504698ACE1 /* PPToolKit-prefix.pch */,
-				D17E989F6B12BCD1B10C42F45B5EFCEA /* PPToolKit-umbrella.h */,
-				DDC7904D0148E22794F79B2B99590501 /* PPToolKit.debug.xcconfig */,
-				3A223A522B8F4C424F6D78FA314CA8E3 /* PPToolKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PPToolKit";
-			sourceTree = "<group>";
-		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,14 +230,19 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		A4F6E08129D2BD7F280A193BCF31C00C /* Pod */ = {
+		A90AD97B1A09066BC39BA6C76724EC18 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B3B64FE7831D96760C2E93554376821 /* LICENSE */,
-				06F50B47463E516674F1615A3F9726D6 /* PPToolKit.podspec */,
-				0C43338637D5973F472EDEAAF3F6EA3E /* README.md */,
+				5B0EB6EEE3BCCE6309638BB0513CDBE4 /* PPToolKit.modulemap */,
+				3752EEE2CAF8D0EAF07C23A8BBF07283 /* PPToolKit-dummy.m */,
+				FCC7E91A5185AAEDEFAE665B9CC2CA52 /* PPToolKit-Info.plist */,
+				434FB3201F6B21470B836C73C8F75C91 /* PPToolKit-prefix.pch */,
+				92CD7CDA1B74BFE8B912F9EB990A0BE9 /* PPToolKit-umbrella.h */,
+				BB2BB1AE3D2F8A0C00BA899F6DD6A51C /* PPToolKit.debug.xcconfig */,
+				61B0647A9C8A0D4036AF6AF91DC49601 /* PPToolKit.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PPToolKit";
 			sourceTree = "<group>";
 		};
 		B3BB0E07FF2FA9E05DE5B96C9B440E36 /* Pods-PPToolKit_Tests */ = {
@@ -263,6 +260,21 @@
 			);
 			name = "Pods-PPToolKit_Tests";
 			path = "Target Support Files/Pods-PPToolKit_Tests";
+			sourceTree = "<group>";
+		};
+		B53CB3A395B4EE39174CF78067AF13B6 /* PPToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				D31CB1D7428B44B1B03A00C98D1CF5E9 /* NSArray+ppEx.h */,
+				935FDD1BE39EAB8FC87F2F8026838D5E /* NSArray+ppEx.m */,
+				356B4079F120A70776794759ECE26E2D /* PPToolKit.h */,
+				85FCA8CBCE473788E9E60A60B281CFD8 /* PPToolKit.m */,
+				8A2DBB33AFDB6A006A9EA3A115830C6F /* ReplaceMe.m */,
+				313F0B118D2156E8B153B65984EAC206 /* Pod */,
+				A90AD97B1A09066BC39BA6C76724EC18 /* Support Files */,
+			);
+			name = PPToolKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -299,11 +311,19 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		CA4CFE6EB56E767BD10FE02A9B828E3E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B53CB3A395B4EE39174CF78067AF13B6 /* PPToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E911AA5BD9BAAF9A3B5A91D92E3A1DA6 /* Development Pods */,
+				CA4CFE6EB56E767BD10FE02A9B828E3E /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				E850F97F593406DDF8109622B5F4D7D8 /* Products */,
@@ -339,14 +359,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E911AA5BD9BAAF9A3B5A91D92E3A1DA6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				76ABDDD9A39DEFF105AC487EB62A8112 /* PPToolKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,14 +373,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16E6F709245BDAB92C924609C32C2757 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F2D1DA6F59ED6E5AE942FD01178AEC9 /* PPToolKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2FD9FEB954DA89FD58D8BED05350D435 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +386,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA0975BD47C72127D28E95BCC270D1E /* Pods-PPToolKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D9E6554B01F09055928BFE015DCABE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028457A9E97F697081AF39B093F0F209 /* NSArray+ppEx.h in Headers */,
+				84FD3A579F06BBA577905940CBB6912A /* PPToolKit.h in Headers */,
+				8C8B5CA34B2ECEE33C67F490E93AD09E /* PPToolKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +429,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				28CF54AF54C7E7844F45AC26486C1F8D /* PBXTargetDependency */,
+				C27EEE882CCE83A7AEC7DCAA4192EA49 /* PBXTargetDependency */,
 			);
 			name = "Pods-PPToolKit_Example";
 			productName = Pods_PPToolKit_Example;
@@ -424,12 +438,12 @@
 		};
 		8A548C3E150FA9B7FA852F7714AC8CBB /* PPToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 197D49480B0CD6797AE567BC632476F7 /* Build configuration list for PBXNativeTarget "PPToolKit" */;
+			buildConfigurationList = 1FA87073F5B713838B890392B14326F5 /* Build configuration list for PBXNativeTarget "PPToolKit" */;
 			buildPhases = (
-				16E6F709245BDAB92C924609C32C2757 /* Headers */,
-				F840E66306A1720E485B825C9FC25EC3 /* Sources */,
-				A5DFFF9B37D4AAE4C34EC840E450D496 /* Frameworks */,
-				9D409C42B49B6555A71DB240DD86323B /* Resources */,
+				C7D9E6554B01F09055928BFE015DCABE /* Headers */,
+				454A7649193EDD212AA657229A996573 /* Sources */,
+				A99DCAF5125A5FCEA599ECC72E6B3BE6 /* Frameworks */,
+				EFEB7762D150774196A3E58F0F1DA75F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -452,8 +466,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				5419B34A0AD51E0571ED90AD3093F30A /* PBXTargetDependency */,
-				33CA5EB61AEE8924E53909CACD00AB7D /* PBXTargetDependency */,
+				4BE98E3FD7E739E1ED48E654CBEA3E08 /* PBXTargetDependency */,
+				DB437A4D7C063BD694A581372AF64A9F /* PBXTargetDependency */,
 			);
 			name = "Pods-PPToolKit_Tests";
 			productName = Pods_PPToolKit_Tests;
@@ -516,13 +530,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D409C42B49B6555A71DB240DD86323B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D7B1B2BC9C3E9616210B36AD2C52C3D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +538,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E0A84A6DBB378F2E35161C8EFA2ABDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEB7762D150774196A3E58F0F1DA75F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,6 +570,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		454A7649193EDD212AA657229A996573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F31698026754B416FDBFE88D6B8E8BF /* NSArray+ppEx.m in Sources */,
+				2FF1AC47ACE49C68F3F2638F5D5E2EF2 /* PPToolKit.m in Sources */,
+				7697D1FD6C3C67E5DB2558D33BBAEE89 /* PPToolKit-dummy.m in Sources */,
+				1C2BCC6877A28E23959407796F4FA98E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -572,39 +597,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F840E66306A1720E485B825C9FC25EC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D14807A86B927C83D52C18E0F8E72FFC /* PPToolKit-dummy.m in Sources */,
-				EACB45B78747F6EE9CB259FE65F4C4E4 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28CF54AF54C7E7844F45AC26486C1F8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PPToolKit;
-			target = 8A548C3E150FA9B7FA852F7714AC8CBB /* PPToolKit */;
-			targetProxy = 11D0EFFF572B227CF46FF117FD2A761A /* PBXContainerItemProxy */;
-		};
-		33CA5EB61AEE8924E53909CACD00AB7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PPToolKit_Example";
-			target = 2ECFAFE326F4D44FC59FC05B2FAB12E4 /* Pods-PPToolKit_Example */;
-			targetProxy = 84AD3BF2EC53A8F64ED8864E8911672A /* PBXContainerItemProxy */;
-		};
-		5419B34A0AD51E0571ED90AD3093F30A /* PBXTargetDependency */ = {
+		4BE98E3FD7E739E1ED48E654CBEA3E08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 10442290E85E9144D07F3661CBE5428B /* PBXContainerItemProxy */;
+			targetProxy = 7CFCCA207346E08DFBA3CDFB49BD939E /* PBXContainerItemProxy */;
+		};
+		C27EEE882CCE83A7AEC7DCAA4192EA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPToolKit;
+			target = 8A548C3E150FA9B7FA852F7714AC8CBB /* PPToolKit */;
+			targetProxy = 3DDF9106CED882C298C82221EFEF009C /* PBXContainerItemProxy */;
+		};
+		DB437A4D7C063BD694A581372AF64A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PPToolKit_Example";
+			target = 2ECFAFE326F4D44FC59FC05B2FAB12E4 /* Pods-PPToolKit_Example */;
+			targetProxy = DB0367BE859845121581AD98BAD37429 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C4F71FD7AD8DC7A28714274AC991B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2BB1AE3D2F8A0C00BA899F6DD6A51C /* PPToolKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPToolKit/PPToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPToolKit/PPToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPToolKit/PPToolKit.modulemap";
+				PRODUCT_MODULE_NAME = PPToolKit;
+				PRODUCT_NAME = PPToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
@@ -703,6 +750,38 @@
 			};
 			name = Debug;
 		};
+		6D12A8AB00B955FBA1B94EA128330DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B0647A9C8A0D4036AF6AF91DC49601 /* PPToolKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPToolKit/PPToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPToolKit/PPToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPToolKit/PPToolKit.modulemap";
+				PRODUCT_MODULE_NAME = PPToolKit;
+				PRODUCT_NAME = PPToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -794,38 +873,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9513BEB76DFC31E5AA1C757AA1D4C2EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A223A522B8F4C424F6D78FA314CA8E3 /* PPToolKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PPToolKit/PPToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPToolKit/PPToolKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPToolKit/PPToolKit.modulemap";
-				PRODUCT_MODULE_NAME = PPToolKit;
-				PRODUCT_NAME = PPToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -926,37 +973,6 @@
 			};
 			name = Debug;
 		};
-		EBBD7D2071596426B430581A2B1BB2E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC7904D0148E22794F79B2B99590501 /* PPToolKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PPToolKit/PPToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPToolKit/PPToolKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPToolKit/PPToolKit.modulemap";
-				PRODUCT_MODULE_NAME = PPToolKit;
-				PRODUCT_NAME = PPToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FD2CFE37E51FE6EFB1A0574BB86180B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 034A9569A61BAED64ED26BD00B42CB76 /* Pods-PPToolKit_Tests.release.xcconfig */;
@@ -994,11 +1010,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		197D49480B0CD6797AE567BC632476F7 /* Build configuration list for PBXNativeTarget "PPToolKit" */ = {
+		1FA87073F5B713838B890392B14326F5 /* Build configuration list for PBXNativeTarget "PPToolKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBBD7D2071596426B430581A2B1BB2E9 /* Debug */,
-				9513BEB76DFC31E5AA1C757AA1D4C2EA /* Release */,
+				0C4F71FD7AD8DC7A28714274AC991B15 /* Debug */,
+				6D12A8AB00B955FBA1B94EA128330DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

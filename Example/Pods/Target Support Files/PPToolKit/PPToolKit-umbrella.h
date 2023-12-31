@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSArray+ppEx.h"
+#import "PPToolKit.h"
 
 FOUNDATION_EXPORT double PPToolKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPToolKitVersionString[];
