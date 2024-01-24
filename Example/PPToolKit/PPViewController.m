@@ -19,6 +19,9 @@
     [super viewDidLoad];
 	
     NSArray <NSString *>*values = @[@"1", @"2", @"3", @"4"];
+//    values.mapBlock(^id _Nonnull(NSString *  _Nonnull element) {
+//        return element;
+//    });
     NSArray *greaterThan2 = [values pp_filter:^BOOL(NSString * _Nonnull element) {
         return element.intValue > 2;
     }];

@@ -12,9 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSArray <__covariant ObjectType> (ppEx)
 
+/// 点语法返回数组指定下标的元素, 可以为空, 不会越界
+@property (nonatomic, copy) _Nullable ObjectType(^objectNullableAtIndexBlock)(NSUInteger index);
 /// 返回数组指定下标的元素, 可以为空, 不会越界
 - (nullable ObjectType)pp_objectNullableAtIndex:(NSUInteger)index;
 
+//@property (nonatomic, copy) NSArray *(^mapBlock)(id(^block)(ObjectType element));
 /// 生成新的数组, 回调返回重新生成的符合要求的对象
 - (NSArray *)pp_map:(id(^)(ObjectType element))block;
 /// 生成新的数组, 回调 带下标 返回重新生成的符合要求的对象

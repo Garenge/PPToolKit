@@ -10,6 +10,13 @@
 
 @implementation NSArray (ppEx)
 
+/// 点语法返回数组指定下标的元素, 可以为空, 不会越界
+- (id _Nullable (^)(NSUInteger))objectNullableAtIndexBlock {
+    return ^_Nullable id(NSUInteger index) {
+        return [self pp_objectNullableAtIndex:index];
+    };
+}
+/// 返回数组指定下标的元素, 可以为空, 不会越界
 - (id)pp_objectNullableAtIndex:(NSUInteger)index {
     if (self.count > index) {
         return [self objectAtIndex:index];
