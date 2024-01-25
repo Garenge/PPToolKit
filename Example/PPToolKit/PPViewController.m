@@ -14,14 +14,18 @@
 
 @implementation PPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	
     NSArray <NSString *>*values = @[@"1", @"2", @"3", @"4"];
-//    values.mapBlock(^id _Nonnull(NSString *  _Nonnull element) {
-//        return element;
-//    });
+
+    NSArray <NSString *>*valueMap = values.mapBlock(^id _Nonnull(NSString * _Nonnull element) {
+        return [NSString stringWithFormat:@"Hello %@", element];
+    });
+    valueMap.enumerationBlock(^(NSString *  _Nonnull element, NSInteger index, NSInteger totalCount) {
+        NSLog(@"==== %@, %ld, %ld", element, index, totalCount);
+    });
+
     NSArray *greaterThan2 = [values pp_filter:^BOOL(NSString * _Nonnull element) {
         return element.intValue > 2;
     }];
