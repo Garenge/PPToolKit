@@ -33,7 +33,16 @@
     for (NSString *string in greaterThan2) {
         NSLog(@"==== %@", string);
     }
-    
+
+    NSArray *fileterAndMap = [values pp_filter:^BOOL(NSString * _Nonnull element) {
+        return element.integerValue > 2;
+    } pp_mapWithIndex:^id _Nonnull(NSString * _Nonnull element, NSInteger index) {
+        return [NSString stringWithFormat:@"Hello %@", element];
+    }];
+    for (NSString *string in fileterAndMap) {
+        NSLog(@"==== %@", string);
+    }
+
 }
 
 - (void)didReceiveMemoryWarning
