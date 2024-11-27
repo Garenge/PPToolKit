@@ -33,10 +33,15 @@ NS_ASSUME_NONNULL_BEGIN
 /// 过滤符合条件的元素, 生成新的数组
 - (NSArray <ObjectType>*)pp_filter:(BOOL(^)(ObjectType element))block;
 
+/// 点语法过滤符合条件的元素, 生成新的数组 带下标
+@property (nonatomic, copy) NSArray *(^filterWithIndexBlock)(BOOL(^paramBlock)(ObjectType element, NSInteger index));
+/// 过滤符合条件的元素, 生成新的数组 带下标
+- (NSArray *)pp_filterWithIndex:(BOOL(^)(ObjectType element, NSInteger index))block;
+
 /// 过滤并生成新的数组, 回调返回重新生成的符合要求的对象
 - (NSArray <ObjectType>*)pp_filter:(BOOL(^)(ObjectType element))fblock pp_map:(id(^)(ObjectType element))mblock;
 /// 过滤并生成新的数组, 回调 带下标 返回重新生成的符合要求的对象
-- (NSArray <ObjectType>*)pp_filter:(BOOL(^)(ObjectType element))fblock pp_mapWithIndex:(id(^)(ObjectType element, NSInteger index))mblock;
+- (NSArray <ObjectType>*)pp_filter:(BOOL(^)(ObjectType element, NSInteger index))fblock pp_mapWithIndex:(id(^)(ObjectType element, NSInteger index))mblock;
 
 /// 点语法判断是否包含满足条件的元素
 @property (nonatomic, copy) BOOL(^containsBlock)(BOOL(^paramBlock)(ObjectType element));
