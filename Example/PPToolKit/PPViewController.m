@@ -34,7 +34,7 @@
         NSLog(@"==== %@", string);
     }
 
-    NSArray *fileterAndMap = [values pp_filter:^BOOL(NSString * _Nonnull element) {
+    NSArray *fileterAndMap = [values pp_filter:^BOOL(NSString * _Nonnull element, NSInteger index) {
         return element.integerValue > 2;
     } pp_mapWithIndex:^id _Nonnull(NSString * _Nonnull element, NSInteger index) {
         return [NSString stringWithFormat:@"Hello %@", element];
@@ -43,6 +43,7 @@
         NSLog(@"==== %@", string);
     }
 
+    PPScrollContentView;
 }
 
 - (void)didReceiveMemoryWarning

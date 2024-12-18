@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NSArray+ppEx.h"
+#import "PPScrollContentView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

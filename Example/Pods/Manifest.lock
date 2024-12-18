@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - PPToolKit (0.1.0)
+  - Masonry (1.1.0)
+  - PPToolKit (0.1.3):
+    - Masonry
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - Masonry
 
 EXTERNAL SOURCES:
   PPToolKit:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PPToolKit: 2017cc607b35a16192b55cc1bb29ce14e1f2e6bc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PPToolKit: edc95c843c1267d060849f3f45d2bf2fdc4d39af
 
 PODFILE CHECKSUM: 81792bca1e4154befa94f4b3540dafc17fb0972c
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.15.2
