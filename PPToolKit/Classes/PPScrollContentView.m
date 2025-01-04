@@ -40,15 +40,15 @@
 }
 
 - (UIStackView *)contentView {
-  if (nil == _contentView) {
-    UIStackView *contentView = [UIStackView viewWithAxis:UILayoutConstraintAxisVertical];
-    [self addSubview:contentView];
-    _contentView = contentView;
-    [contentView mas_makeConstraints:^(MASConstraintMaker *make) {
-      make.left.width.top.bottom.equalTo(self);
-    }];
-  }
-  return _contentView;
+    if (nil == _contentView) {
+        UIStackView *contentView = [UIStackView pp_viewWithAxis:UILayoutConstraintAxisVertical];
+        [self addSubview:contentView];
+        _contentView = contentView;
+        [contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.width.top.bottom.equalTo(self);
+        }];
+    }
+    return _contentView;
 }
 
 - (void)setContentInset:(UIEdgeInsets)contentInset {
@@ -67,8 +67,8 @@
 - (void)layoutIfNeeded {
   [super layoutIfNeeded];
 
-  self.width = self.contentView.width + self.contentInset.left + self.contentInset.right;
-  self.height = self.contentView.height + self.contentInset.top + self.contentInset.bottom;
+  self.pp_width = self.contentView.pp_width + self.contentInset.left + self.contentInset.right;
+  self.pp_height = self.contentView.pp_height + self.contentInset.top + self.contentInset.bottom;
 }
 
 #pragma mark - func

@@ -6,8 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIView+ppEx.h"
 #import "NSArray+ppEx.h"
 #import "PPScrollContentView.h"
+#import "NSString+ppEx.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

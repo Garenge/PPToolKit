@@ -11,8 +11,10 @@
 #endif
 
 #import "NSArray+ppEx.h"
+#import "NSString+ppEx.h"
 #import "PPScrollContentView.h"
 #import "PPToolKit.h"
+#import "UIView+ppEx.h"
 
 FOUNDATION_EXPORT double PPToolKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPToolKitVersionString[];

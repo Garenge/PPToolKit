@@ -42,6 +42,8 @@
     for (NSString *string in fileterAndMap) {
         NSLog(@"==== %@", string);
     }
+    
+    NSLog(@"%lld的文件, 转换成合适的单位: %@", 100000000, [NSString pp_fileSizeFormat:100000000]);
 
     PPScrollContentView;
 }
