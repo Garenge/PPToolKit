@@ -11,6 +11,7 @@
 #endif
 
 #import "NSArray+ppEx.h"
+#import "NSDictionary+HEEx.h"
 #import "NSString+ppEx.h"
 #import "PPScrollContentView.h"
 #import "PPToolKit.h"
