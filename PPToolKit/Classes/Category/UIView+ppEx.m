@@ -13,6 +13,12 @@
     return [[self alloc] init];
 }
 
++ (instancetype)pp_viewWithBackgroundColor:(UIColor *)color {
+    UIView *view = [self pp_view];
+    view.backgroundColor = color;
+    return view;
+}
+
 - (CGFloat)pp_width {
     return self.frame.size.width;
 }
@@ -31,6 +37,21 @@
     CGRect frame = self.frame;
     frame.size.height = pp_height;
     self.frame = frame;
+}
+
+- (CGFloat)borderCornerRadius {
+    return self.layer.cornerRadius;
+}
+
+- (void)setBorderCornerRadius:(CGFloat)borderCornerRadius {
+    self.layer.cornerRadius = borderCornerRadius;
+    self.layer.masksToBounds = YES;
+}
+
+- (void)setBorderCornerRadius:(CGFloat)borderCornerRadius borderColor:(UIColor *)color width:(CGFloat)width {
+    self.borderCornerRadius = borderCornerRadius;
+    self.layer.borderColor = color.CGColor;
+    self.layer.borderWidth = width;
 }
 
 @end

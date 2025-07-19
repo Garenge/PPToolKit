@@ -12,9 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIView (ppEx)
 
 + (instancetype)pp_view;
++ (instancetype)pp_viewWithBackgroundColor:(UIColor *)color;
 
 @property (nonatomic, assign) CGFloat pp_width;
 @property (nonatomic, assign) CGFloat pp_height;
+
+@property (nonatomic, assign) CGFloat borderCornerRadius;
+- (void)setBorderCornerRadius:(CGFloat)borderCornerRadius borderColor:(UIColor *)color width:(CGFloat)width;
 
 @end
 

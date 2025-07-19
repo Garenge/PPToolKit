@@ -39,14 +39,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'PPToolKit/Classes/**/*'
+  s.public_header_files = 'PPToolKit/Classes/**/*.h'
   
+  s.default_subspecs = 'Core'
+
+  s.subspec 'Core' do |core|
+    core.source_files = 'PPToolKit/Classes/**/*'
+  end
+
   # s.resource_bundles = {
   #   'PPToolKit' => ['PPToolKit/Assets/*.png']
   # }
 
-  s.public_header_files = 'PPToolKit/Classes/**/*.h'
+  s.subspec 'PDF' do |pdf|
+    # pdf.source_files = 'PPToolKit/PDF/**/*' # 表示PDF要用的文件, 这里没有
+    # pdf.dependency 'PPToolKit/Core'   # 👈 明确声明依赖 Core 模块, 如果写了就是, pod 'PPToolKit/PDF'的时候, 会自动pod core, 不写表示只pod pdf
+    pdf.dependency 'LGPdf', '~> 0.1.3-alpha'
+  end
+  
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency "Masonry"
+  s.dependency "Masonry" # 写在外面, 这样都会pod
 end
