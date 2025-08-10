@@ -29,4 +29,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface NSData (ppEx)
+
+- (NSString *)UTF8String;
+
+@end
+
 NS_ASSUME_NONNULL_END

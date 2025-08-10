@@ -72,3 +72,15 @@
 }
 
 @end
+
+@implementation NSData (ppEx)
+
+- (NSString *)UTF8String {
+    if (self.length == 0) {
+        return nil;
+    }
+    NSString *string = [[NSString alloc] initWithData:self encoding:NSUTF8StringEncoding];
+    return string;
+}
+
+@end

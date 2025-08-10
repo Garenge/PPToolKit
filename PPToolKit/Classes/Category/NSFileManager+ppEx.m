@@ -29,6 +29,7 @@
         NSLog(@"======== 替换文件失败: %@", wrError);
         return NO;
     }
+    NSLog(@"======== 替换文件成功: %@", localFilePath);
     return YES;
 }
 
@@ -52,6 +53,7 @@
         NSLog(@"======== 替换文件失败: %@", cpError);
         return NO;
     }
+    NSLog(@"======== 替换文件成功: %@", localFilePath);
     return YES;
 }
 

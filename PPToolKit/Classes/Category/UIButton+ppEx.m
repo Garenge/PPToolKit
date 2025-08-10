@@ -25,4 +25,10 @@
     return button;
 }
 
++ (instancetype)pp_buttonWithImage:(UIImage *)image {
+    UIButton *button = [self buttonWithType:UIButtonTypeCustom];
+    [button setImage:image forState:UIControlStateNormal];
+    return button;
+}
+
 @end

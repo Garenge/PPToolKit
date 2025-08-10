@@ -12,6 +12,7 @@
 #import "PPScrollContentView.h"
 #import "NSString+ppEx.h"
 #import "UIButton+ppEx.h"
+#import "UIImage+ppEx.h"
 #import "UILabel+ppEx.h"
 #import "Config.h"
 #import "PPAlertBaseView.h"
