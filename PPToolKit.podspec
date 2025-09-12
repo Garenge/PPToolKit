@@ -39,12 +39,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.public_header_files = 'PPToolKit/Classes/**/*.h'
-  
   s.default_subspecs = 'Core'
 
   s.subspec 'Core' do |core|
     core.source_files = 'PPToolKit/Classes/**/*'
+    core.public_header_files = 'PPToolKit/Classes/**/*.h'
   end
 
   # s.resource_bundles = {
